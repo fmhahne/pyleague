@@ -13,7 +13,7 @@ main = typer.Typer()
 
 
 @main.command()
-def rank(
+def table(
     filepaths: list[str],
     rating: bool = typer.Option(False, help="Prints rating table."),
 ) -> None:

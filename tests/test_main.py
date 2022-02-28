@@ -5,11 +5,11 @@ from pyleague.__main__ import main
 runner = CliRunner()
 
 
-def test_rank():
-    result = runner.invoke(main, ["rank", "tests/example.md"])
+def test_table():
+    result = runner.invoke(main, ["table", "tests/example.md"])
     assert "1 Spain 10 3 1 2 0 6 5 1" in " ".join(result.stdout.split())
 
-    result = runner.invoke(main, ["rank", "tests/example.md", "--rating"])
+    result = runner.invoke(main, ["table", "tests/example.md", "--rating"])
     assert "Rating" in result.stdout
 
 
