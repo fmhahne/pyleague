@@ -49,7 +49,7 @@ class League:
     def __init__(self, config: Optional[dict] = None):
         self.config: dict = {
             "criteria": "Points GD GF".split(),
-            "rating": {"initial": 1500.0, "k": 30.0, "advantage": 0.0},
+            "rating": {"initial": 1500.0, "k": 20.0, "advantage": 0.0},
             "points": {"Won": 3, "Drawn": 1, "Lost": 0},
             "styles": {},
         }
