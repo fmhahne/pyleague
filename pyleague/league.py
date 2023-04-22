@@ -95,7 +95,7 @@ class League:
         # Rating computations
 
         home, away = match.teams
-        home_result = dict(Won=1.0, Drawn=0.5, Lost=0.0)[match.result(home)]
+        home_result = {"Won": 1.0, "Drawn": 0.5, "Lost": 0.0}[match.result(home)]
         delta = (
             self.config["rating"]["advantage"]
             + self.teams[home]["Rating"]
