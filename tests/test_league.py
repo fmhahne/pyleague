@@ -20,7 +20,7 @@ def test_config():
 
     assert league2.config == {
         "criteria": "Points GD GF".split(),
-        "rating": {"initial": 1500.0, "k": 30.0, "advantage": 0.0},
+        "rating": {"initial": 1500.0, "k": 20.0, "advantage": 0.0},
         "points": {"Won": 6, "Drawn": 2, "Lost": 0},
         "styles": {},
     }
