@@ -1,7 +1,0 @@
-black
-hypothesis
-isort
-mypy
-pylint
-pytest
-pytest-cov
