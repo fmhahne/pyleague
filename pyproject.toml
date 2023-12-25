@@ -41,3 +41,7 @@ max-line-length = 88
 
 [tool.pylint.messages_control]
 disable = "E1136"
+
+[tool.mypy]
+ignore_missing_imports = true
+strict_optional = false
