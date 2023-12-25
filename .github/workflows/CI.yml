@@ -39,3 +39,11 @@ jobs:
         run: |
           source .venv/bin/activate
           black --check .
+      - name: Type check
+        run: |
+          source .venv/bin/activate
+          mypy -p pyleague
+      - name: Lint
+        run: |
+          source .venv/bin/activate
+          pylint pyleague
