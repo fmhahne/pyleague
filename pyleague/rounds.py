@@ -1,11 +1,11 @@
 """Pairing generator for round-robin league"""
 
-from typing import Generator, Optional
+from typing import Any, Generator, Optional
 
 
 def rounds(
-    teams: list[str], count: Optional[int] = None
-) -> Generator[list[tuple[str, str]], None, None]:
+    teams: list[Any], count: Optional[int] = None
+) -> Generator[list[tuple[Any, Any]], None, None]:
     """ "Yields lists of pairings for each round"""
 
     if len(teams) % 2 == 1:
