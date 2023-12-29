@@ -13,13 +13,12 @@ typer = "^0.9.0"
 rich = "^13.3.4"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.12.1"
 hypothesis = "^6.92.2"
-isort = "^5.13.2"
 mypy = "^1.8.0"
-pylint = "^3"
 pytest = "^7.3.1"
 pytest-cov = "^4.0.0"
+ruff = "^0.1.9"
+pre-commit = "^3.6.0"
 
 [tool.poetry.scripts]
 pyleague = "pyleague.__main__:main"
@@ -39,3 +38,9 @@ disable = "E1136"
 
 [tool.mypy]
 ignore_missing_imports = true
+
+[tool.ruff]
+extend-select = ["I"]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]

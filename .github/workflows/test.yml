@@ -38,16 +38,7 @@ jobs:
         run: |
           source .venv/bin/activate
           pytest tests/
-      - name: Check format
-        run: |
-          source .venv/bin/activate
-          black --check .
-          isort -c .
       - name: Type check
         run: |
           source .venv/bin/activate
           mypy -p pyleague
-      - name: Lint
-        run: |
-          source .venv/bin/activate
-          pylint pyleague
