@@ -98,13 +98,13 @@ pyleague rank file.txt
 ```
 
 The result is supposed to look like this:
-```                  
-  #   Name       Played   Won   Drawn   Lost   GF   GA   GD   Points  
+```
+  #   Name       Played   Won   Drawn   Lost   GF   GA   GD   Points
  ────────────────────────────────────────────────────────────────────
-  1   Spain           3     1       2      0    6    5    1        5  
-  2   Portugal        3     1       2      0    5    4    1        5  
-  3   Iran            3     1       1      1    2    2    0        4  
-  4   Morocco         3     0       1      2    2    4   -2        1  
+  1   Spain           3     1       2      0    6    5    1        5
+  2   Portugal        3     1       2      0    5    4    1        5
+  3   Iran            3     1       1      1    2    2    0        4
+  4   Morocco         3     0       1      2    2    4   -2        1
 ```
 
 ## API usage
