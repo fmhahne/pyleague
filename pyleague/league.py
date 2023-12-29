@@ -128,7 +128,7 @@ class League:
             num_text = Text(str(num), style=style)
 
             if name in self.config["styles"]:
-                style = style = self.config["styles"][name]
+                style = self.config["styles"][name]
             else:
                 style = "none"
 
