@@ -27,15 +27,6 @@ pyleague = "pyleague.__main__:main"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.isort]
-profile = "black"
-
-[tool.pylint]
-max-line-length = 88
-
-[tool.pylint.messages_control]
-disable = "E1136"
-
 [tool.mypy]
 ignore_missing_imports = true
 
