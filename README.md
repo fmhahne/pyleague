@@ -94,7 +94,7 @@ The only relevant parts are the front matter configuration and the matches in th
 To print the ranking table, use:
 
 ```
-pyleague rank file.txt
+pyleague table file.txt
 ```
 
 The result is supposed to look like this:
