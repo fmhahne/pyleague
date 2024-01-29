@@ -13,7 +13,7 @@ typer = "^0.9.0"
 rich = "^13.3.4"
 
 [tool.poetry.group.dev.dependencies]
-hypothesis = "^6.96.2"
+hypothesis = "^6.97.1"
 mypy = "^1.8.0"
 pytest = "^8.0.0"
 pytest-cov = "^4.0.0"
