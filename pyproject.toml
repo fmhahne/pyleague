@@ -14,7 +14,7 @@ rich = "^13.7.1"
 
 [tool.poetry.group.dev.dependencies]
 hypothesis = "^6.99.2"
-mypy = "^1.8.0"
+mypy = "^1.9.0"
 pytest = "^8.1.0"
 pytest-cov = "^4.0.0"
 ruff = "^0.3.2"
