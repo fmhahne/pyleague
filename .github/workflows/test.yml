@@ -16,6 +16,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-          cache: "poetry"
       - run: pipx install hatch
-      - run: hatch test
+      - run: hatch test -i py=${{ matrix.python-version }}
