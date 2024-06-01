@@ -18,6 +18,9 @@ dependencies = [
   "typer ~=0.12",
 ]
 
+[project.scripts]
+pyleague = "pyleague.__main__:main"
+
 [tool.hatch.envs.hatch-test]
 extra-dependencies = [
   "pytest ~=8.2.1",
