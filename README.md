@@ -7,7 +7,7 @@ Python package to generate pairings for a round-robin league, and print standing
 Recommended way of installing is using `pip`:
 
 ```
-pip install git+https://github.com/fernandomhahne/pyleague.git
+pip install git+https://github.com/fmhahne/pyleague.git
 ```
 
 ## CLI usage
